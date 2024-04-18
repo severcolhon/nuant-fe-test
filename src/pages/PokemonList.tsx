@@ -19,7 +19,7 @@ const PokemonList = () => {
   }, [pokemons, filterName, filterType]);
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container max-w-4xl mx-auto p-4">
       <h1 className="text-3xl font-bold mb-4">Pokedex</h1>
       <div className="flex mb-4">
         <input
